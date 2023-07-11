@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec-one {
+    background-image: url(./img/man_img.png);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bgc {
+    background-color: #303030;
+}
+
+.row {
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.flex-dire {
+    flex-direction: column;
+}
+
+.justy-align {
+    justify-content: center;
+}
+
+.text-nav ul li {
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.text-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.jscsb {
+    justify-content: space-between;
+}
+
+.just-sp-around {
+    justify-content: space-around;
+}
+
+.top-menu {
+    line-height: 60px;
+    font-size: 20px;
+    color: white;
+}
+
+.logo img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.search-icon i {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.title h1 {
+    font-size: 80px;
+    font-weight: 400;
+    font-family: "Oswald";
+    color: white;
+    margin: 100px 0 50px 0;
+    padding: 100px 0 0 0;
+}
+
+.title p {
+    margin: 50px 0 50px 0;
+    font-size: 22px;
+    color: white;
+    font-family: "Montserrat";
+}
+
+.btn button {
+    padding: 15px 50px;
+    border: none;
+    margin: 0 0 120px 0;
+    color: white;
+    font-size: 25px;
+    border-radius: 4px;
+    background-color: #e8631c;
+    font-family: "Oswald";
+}
+
+.sec-two {
+    /* height: 500px; */
+    background-color: #e8631c;
+}
+
+.design {
+    background-image: url(./img/dotted-design.png);
+    /* height: 600px; */
+    background-position-x: -600px;
+    background-position-y: -400px;
+    background-repeat: no-repeat;
+}
+
+.col-33 {
+    width: 30%;
+}
+
+.card {
+    /* margin: 0 20px; */
+    background-color: #303030;
+}
+
+.card img {
+    width: 100%;
+}
+
+.dance-text h4 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.text-line p {
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.text-line {
+    margin: 0 0 30px 0;
+}
+
+.dance {
+    padding: 0 0 100px 0;
+}
+
+.card h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Oswald";
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.card p {
+    font-size: 15px;
+    color: #ffffff;
+    width: 370px;
+    font-family: "Montserrat";
+    text-align: center;
+    /* margin: 10px 0 px 0; */
+    padding: 0 0 25px 0;
+}
+
+.price h4 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.price p {
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.white-dot {
+    background-image: url(./img/white-dotted.png);
+    /* height: 600px; */
+    background-position-x: -400px;
+    background-position-y: -300px;
+    background-repeat: no-repeat;
+}
+
+
+.p-card h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Oswald";
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.p-card p {
+    font-size: 15px;
+    color: #ffffff;
+    width: 370px;
+    font-family: "Montserrat";
+    text-align: center;
+    /* margin: 10px 0 px 0; */
+    padding: 0 0 10px 0;
+}
+
+.p-card {
+    background-color: #e8631c;
+    border-radius: 4px;
+    padding: 0 0 10px 0;
+
+}
+
+.p-card img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding: 50px 0 50px 0;
+
+}
+
+.p-card button {
+    display: block;
+    margin: 25px auto;
+    padding: 10px 100px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.sec-four {
+    background-color: #e8631c;
+
+}
+
+.man1 img {
+    width: 100%;
+}
+
+.man1-text {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.man1-text h5 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    margin: 100px 0 50px 0;
+    padding: 100px 0 0 0;
+}
+
+.man1-text p {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    /* margin:100px 0 50px 0 ; */
+    padding: 0 0 50px 0;
+}
+
+.man1-text button {
+    display: block;
+    margin: 25px auto;
+    padding: 10px 100px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.sec-five {
+    background-color: #e8631c;
+}
+
+.man2 img {
+    width: 100%;
+}
+
+.man2-text {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.man2-text h5 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    margin: 100px 0 50px 0;
+    padding: 100px 0 0 0;
+}
+
+.man2-text p {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    /* margin:100px 0 50px 0 ; */
+    padding: 0 0 50px 0;
+}
+
+.man2-text button {
+    display: block;
+    margin: 25px auto;
+    padding: 10px 100px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.sec-six {
+    background-color: #303030;
+    /* height: 500px; */
+    /* margin: 0 0 10px 0; */
+}
+
+.static h6 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    padding: 150px 0 50px 0;
+}
+
+.static p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 0 0 50px 0;
+    margin: 0 0 100px 0;
+}
+
+.club {
+    margin: 0 0 200px 0;
+}
+
+.club h5 {
+    font-size: 67px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.club p {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.sec-seven {
+    background-image: linear-gradient(45deg, #e8631c98, rgba(255, 255, 255, 0.74), #e8631ca9),url(./img/man3.png);
+    /* height: 600px; */
+    /* background-size:cover; */
+}
+
+.cont-space {
+    padding: 100px 0 100px 0;
+}
+
+.contant p {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Nunito";
+    text-align: center;
+    padding: 100px 0 50px 0;
+    margin: 100px 0 50px 0;
+}
+
+.contant h6 {
+    font-size: 58px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    padding: 120px 0 150px 0;
+}
+
+.sec-eight {
+    background-color: #e8631c;
+}
+
+.sub {
+    padding: 100px 0 0 0;
+}
+
+.sub h5 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+.sub p {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+
+.search {
+    padding: 0 0 100px 0;
+}
+
+.search input {
+    display: block;
+    padding: 10px 300px 10px 20px;
+}
+
+.search button {
+    display: block;
+    padding: 11px 35px;
+    background-color: #303030;
+    border: none;
+}
+.info{
+    background-color: #303030;
+}
+.col-40 {
+    width: 40%;
+}
+.col-40 h5{
+    padding: 30px 0 0 0;
+    color: white;
+    font-size: 30px;
+}
+.col-40 p{
+    width: 250px;
+    padding: 50px 0 50px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.col-20 {
+    width: 20%;
+}
+.col-20 h5{
+    padding: 30px 0 0 0;
+    color: white;
+    font-size: 20px;
+}
+.col-40 p{
+    width: 250px;
+    padding: 50px 0 50px 0;
+}
+
+.col-40 h5{
+    padding: 30px 0 0 0;
+    color: white;
+}
+
+.col-20 h5{
+    padding: 30px 0 0 0;
+    color: white;
+}
+.col-20 h6{
+    color: #ffffff;
+    padding: 20px 0 0 0;
+    font-size: 15px;
+}
+.c-u{
+    padding: 0px 10px 0px 0px;
+}
